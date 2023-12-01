@@ -12,7 +12,7 @@
  Target Server Version : 140008 (140008)
  File Encoding         : 65001
 
- Date: 30/11/2023 17:56:16
+ Date: 30/11/2023 21:28:13
 */
 
 
@@ -34,6 +34,7 @@ ALTER TABLE "public"."tb_cliente" OWNER TO "josue";
 BEGIN;
 INSERT INTO "public"."tb_cliente" ("id_cliente", "nombre", "telefono") VALUES ('e94c654b-f403-442e-9c9b-167671492f7f', 'Pablo Jose Antonio SA de CV', '75434126');
 INSERT INTO "public"."tb_cliente" ("id_cliente", "nombre", "telefono") VALUES ('7480f5ed-c1a8-4590-a480-e090eb740804', 'Edwin Antonio', '75434127');
+INSERT INTO "public"."tb_cliente" ("id_cliente", "nombre", "telefono") VALUES ('5983fdb3-3fbe-44c7-ad83-5205dbfce487', 'Josue Carmona', '75412658');
 COMMIT;
 
 -- ----------------------------
@@ -53,6 +54,7 @@ ALTER TABLE "public"."tb_comercio" OWNER TO "josue";
 -- ----------------------------
 BEGIN;
 INSERT INTO "public"."tb_comercio" ("id_comercio", "nombre", "ubicacion") VALUES ('a9b19864-c63f-4202-8365-87d672ad734e', 'Pablo Jose Antonio SA de CV', 'la colonia');
+INSERT INTO "public"."tb_comercio" ("id_comercio", "nombre", "ubicacion") VALUES ('9b85e4e8-d8c3-4191-84a9-a9a1b31220d7', 'Brayan SA de CV', 'la esquina');
 COMMIT;
 
 -- ----------------------------
@@ -76,6 +78,9 @@ ALTER TABLE "public"."tb_compra" OWNER TO "josue";
 BEGIN;
 INSERT INTO "public"."tb_compra" ("id_compra", "fecha_compra", "monto_total", "tipo_pago", "id_cliente", "id_comercio") VALUES ('868df121-730f-4ce8-ba77-8aabf2a38e1e', '2023-08-30 20:41:00', 100, 'Plazos', 'e94c654b-f403-442e-9c9b-167671492f7f', 'a9b19864-c63f-4202-8365-87d672ad734e');
 INSERT INTO "public"."tb_compra" ("id_compra", "fecha_compra", "monto_total", "tipo_pago", "id_cliente", "id_comercio") VALUES ('5f8defc7-351d-44b1-8436-1ce2a0f337ef', '2023-08-30 20:41:00', 565, 'Tarjeta', '7480f5ed-c1a8-4590-a480-e090eb740804', 'a9b19864-c63f-4202-8365-87d672ad734e');
+INSERT INTO "public"."tb_compra" ("id_compra", "fecha_compra", "monto_total", "tipo_pago", "id_cliente", "id_comercio") VALUES ('964c3d85-a38f-4cd9-a67d-f98773ee368b', '2023-11-30 20:41:00', 235, 'Tarjeta', '7480f5ed-c1a8-4590-a480-e090eb740804', 'a9b19864-c63f-4202-8365-87d672ad734e');
+INSERT INTO "public"."tb_compra" ("id_compra", "fecha_compra", "monto_total", "tipo_pago", "id_cliente", "id_comercio") VALUES ('a80a4a1d-08c7-48e6-9fdf-bc945bf458b8', '2023-11-30 20:41:00', 899, 'Tarjeta', '5983fdb3-3fbe-44c7-ad83-5205dbfce487', 'a9b19864-c63f-4202-8365-87d672ad734e');
+INSERT INTO "public"."tb_compra" ("id_compra", "fecha_compra", "monto_total", "tipo_pago", "id_cliente", "id_comercio") VALUES ('a467de4a-ab84-4a62-8085-1a72a818ee50', '2023-11-29 20:41:00', 50, 'Plazos', '5983fdb3-3fbe-44c7-ad83-5205dbfce487', '9b85e4e8-d8c3-4191-84a9-a9a1b31220d7');
 COMMIT;
 
 -- ----------------------------

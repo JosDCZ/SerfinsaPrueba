@@ -20,8 +20,8 @@ public class ClienteDto {
     @Size(min = 2, max = 75, message = "El nombre debe tener entre 2 y 75 caracteres")
     private String nombre;
 
-    @NotBlank(message = "El nombre es obligatorio")
-    @Size(min = 2, max = 9, message = "El nombre debe tener entre 2 y 9 caracteres, con guion")
+    @NotBlank(message = "El telefono es obligatorio")
+    @Size(max = 9, message = "El telefono debe tener maximo 8 numeros, e incluir guion")
     private String telefono;
 
     public Cliente toEntity() {
