@@ -2,6 +2,8 @@
 
 DBMS: PostgreSQL
 
+Nombre de base de datos: db_serfinsa
+
 Cambiar los datos de conexion por la suya
 
 ## Diagrama entidad relación de base de datos
