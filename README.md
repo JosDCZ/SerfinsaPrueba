@@ -24,9 +24,3 @@ http://localhost:8080/api/compra/consulta/a9b19864-c63f-4202-8365-87d672ad734e?f
 |          Cliente         | Servidor Web |      Aplicación Spring      | Base de Datos |
 |:------------------------:|:------------:|:---------------------------:|:-------------:|
 | (Navegador,  App, Movil) |    Tomcat    | Boot API  (SerfinsaPuerba)  |   PostgreSQL  |
-|                          |              |                             |               |
-|                          |              |                             |               |
-
-
-
-
