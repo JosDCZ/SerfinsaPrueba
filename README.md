@@ -1,6 +1,8 @@
-# SerfinsaPrueba.
+# SerfinsaPrueba
 
 DBMS: PostgreSQL
+
+Nombre de base de datos: db_serfinsa
 
 Cambiar los datos de conexion por la suya
 
@@ -8,14 +10,14 @@ Cambiar los datos de conexion por la suya
 
 ![Diagrama de Despliegue](EntidadRelacion.png)
 
-## Endpoint.
+## Endpoint
 http://localhost:8080/api/cliente/insertar
 
 http://localhost:8080/api/comercio/insertar
 
 http://localhost:8080/api/compra/insertar
 
-### Consulta compras realizadas en un comercio específico en base a la fecha y medio de pago.
+#### Consulta compras realizadas en un comercio específico en base a la fecha y medio de pago
 
 http://localhost:8080/api/compra/consulta/a9b19864-c63f-4202-8365-87d672ad734e?fecha=2023-08-30&medioPago=Tarjeta
 
@@ -23,4 +25,4 @@ http://localhost:8080/api/compra/consulta/a9b19864-c63f-4202-8365-87d672ad734e?f
 
 |          Cliente         | Servidor Web |      Aplicación Spring      | Base de Datos |
 |:------------------------:|:------------:|:---------------------------:|:-------------:|
-| (Navegador,  App, Movil) |    Tomcat    | Boot API  (SerfinsaPuerba)  |   PostgreSQL  |
+| (Navegador) |    Tomcat    | Boot API  (SerfinsaPrueba)  |   PostgreSQL  |
