@@ -5,7 +5,10 @@ Cambiar los datos de conexion por la suya
 
 ## Endpoint.
 http://localhost:8080/api/cliente/insertar
+
 http://localhost:8080/api/comercio/insertar
+
+http://localhost:8080/api/compra/insertar
 
 ## Consulta compras realizadas en un comercio específico en base a la fecha y medio de pago.
 
